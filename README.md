@@ -1,5 +1,8 @@
 # Advent of Code 2018
 
+[![Build status](https://img.shields.io/travis/mraxus/advent-of-code-2018/master.svg?style=flat-square)](https://travis-ci.org/mraxus/advent-of-code-2018)
+[![Coverage](https://img.shields.io/codecov/c/github/mraxus/advent-of-code-2018.svg?style=flat-square)](https://codecov.io/github/mraxus/advent-of-code-2018?branch=master)
+
 ## Most fun coding challenge 2018
 
 A WIP javascript solution to the epic adventure of http://adventofcode.com/2018
