@@ -3,6 +3,9 @@
   "description": "JS solutions to http://adventofcode.com/2018",
   "version": "1.0.0",
   "main": "main.js",
+  "engines": {
+    "node": ">=11"
+  },
   "scripts": {
     "ci:test": "jest --coverage && codecov",
     "start": "node ./",

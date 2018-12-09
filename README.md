@@ -40,7 +40,7 @@ To run the test simply type: `npm test` or `npm watch`.
 
 ### Computing all solutions
 
-Finally, there is the `index.js` that runs all solution files in series (01-25) with timings and an awesome AoC color scheme.
+Finally, there is the `main.js` that runs all current solution files with timings and an awesome AoC color scheme.
 
 
 ### Finally
