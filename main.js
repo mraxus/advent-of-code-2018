@@ -2,13 +2,14 @@ const { spawn } = require('child_process');
 
 const YEAR = '2018';
 const USER = 'mraxus';
-const STARS = '8'
+const STARS = '10'
 
 const assignments = [
   { filename: '01.js', title: 'Day 1: Chronal Calibration' },
   { filename: '02.js', title: 'Day 2: Inventory Management System' },
   { filename: '03.js', title: 'Day 3: No Matter How You Slice It' },
   { filename: '04.js', title: 'Day 4: Repose Record' },
+  { filename: '05.js', title: 'Day 5: Alchemical Reduction' },
 ];
 const white = text => `\x1b[38;2;255;255;255m${text}\x1b[0m`;
 const gray = text => `\x1b[38;2;178;178;178m${text}\x1b[0m`;
