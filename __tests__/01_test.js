@@ -8,11 +8,11 @@ describe('Day 1', () => {
     { input: '-1, -2, -3', result: -6 },
   ];
   const partTwo = [
-		{ input: '+1, -2, +3, +1', result: 2 },
-		{ input: '+1, -1', result: 0 },
-		{ input: '+3, +3, +4, -2, -4', result: 10 },
-		{ input: '-6, +3, +8, +5, -6', result: 5 },
-		{ input: '+7, +7, -2, -7, -4', result: 14 },
+    { input: '+1, -2, +3, +1', result: 2 },
+    { input: '+1, -1', result: 0 },
+    { input: '+3, +3, +4, -2, -4', result: 10 },
+    { input: '-6, +3, +8, +5, -6', result: 5 },
+    { input: '+7, +7, -2, -7, -4', result: 14 },
   ];
 
   partOne.forEach(({ input, result }) => {
