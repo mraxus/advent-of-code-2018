@@ -7,7 +7,7 @@
     "ci:test": "jest --coverage && codecov",
     "start": "node ./",
     "test": "jest",
-    "watch": "jest --watch --notify"
+    "watch": "jest --watch"
   },
   "repository": {
     "type": "git",
