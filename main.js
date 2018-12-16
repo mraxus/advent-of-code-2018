@@ -2,7 +2,7 @@ const { spawn } = require('child_process');
 
 const YEAR = '2018';
 const USER = 'mraxus';
-const STARS = '22';
+const STARS = '24';
 
 const assignments = [
   { filename: '01.js', title: 'Day 1: Chronal Calibration' },
@@ -16,7 +16,7 @@ const assignments = [
   { filename: '09.js', title: 'Day 9: Marble Mania' },
   { filename: '10.js', title: 'Day 10: The Stars Align' },
   { filename: '11.js', title: 'Day 11: Chronal Charge' },
-  { filename: '12.js', title: '' },
+  { filename: '12.js', title: 'Day 12: Subterranean Sustainability' },
   { filename: '13.js', title: '' },
   { filename: '14.js', title: '' },
   { filename: '15.js', title: '' },
