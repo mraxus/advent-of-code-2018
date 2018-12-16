@@ -2,7 +2,7 @@ const { spawn } = require('child_process');
 
 const YEAR = '2018';
 const USER = 'mraxus';
-const STARS = '18';
+const STARS = '20';
 
 const assignments = [
   { filename: '01.js', title: 'Day 1: Chronal Calibration' },
@@ -14,7 +14,23 @@ const assignments = [
   { filename: '07.js', title: 'Day 7: The Sum of Its Parts' },
   { filename: '08.js', title: 'Day 8: Memory Maneuver' },
   { filename: '09.js', title: 'Day 9: Marble Mania' },
-];
+  { filename: '10.js', title: 'Day 10: The Stars Align' },
+  { filename: '11.js', title: '' },
+  { filename: '12.js', title: '' },
+  { filename: '13.js', title: '' },
+  { filename: '14.js', title: '' },
+  { filename: '15.js', title: '' },
+  { filename: '16.js', title: '' },
+  { filename: '17.js', title: '' },
+  { filename: '18.js', title: '' },
+  { filename: '19.js', title: '' },
+  { filename: '20.js', title: '' },
+  { filename: '21.js', title: '' },
+  { filename: '22.js', title: '' },
+  { filename: '23.js', title: '' },
+  { filename: '24.js', title: '' },
+  { filename: '25.js', title: '' },
+].filter(({ title }) => title);
 const white = text => `\x1b[38;2;255;255;255m${text}\x1b[0m`;
 const gray = text => `\x1b[38;2;178;178;178m${text}\x1b[0m`;
 const yellow = text => `\x1b[38;2;255;255;106m${text}\x1b[0m`;
@@ -66,6 +82,9 @@ function executeAssignment({ filename, title }) {
           .filter(x => x)
           .map(line => {
             const [desc, answer] = line.split(':');
+            if (!answer) {
+              return `  ${gray(desc)}`;
+            }
             return `  ${gray(desc)}:${yellow(answer)}`;
           })
           .join('\n') + '\n'
